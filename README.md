@@ -61,5 +61,41 @@ got/
    ```bash
    git clone https://github.com/yourusername/got-word2vec.git
    cd got-word2vec
+   ```
+2. **Create and activate a virtual environment (recommended)**
    ```bash
-   
+  python -m venv venv
+  venv\Scripts\activate      # For Windows
+  # source venv/bin/activate  # For Mac/Linux
+  ```
+3. **Install dependencies**
+   ```bash
+  pip install -r requirements.txt
+  ```
+4. **🧩 Training the Model**
+   ```bash
+  python src/preprocess.py
+  ```
+
+## ⭐ Support
+---
+If you liked this project, please give it a ⭐ on GitHub!
+It helps others discover this project 🙌
+---
+
+---
+✅ Everything is inside Markdown formatting  
+✅ Copy → Paste directly into README.md  
+✅ GitHub-styled with tables, code blocks, emojis, headings  
+
+---
+
+---
+Would you like me to also generate:
+✅ A clean `requirements.txt`  
+✅ Preview screenshots for GitHub  
+✅ A GIF demo of interactive features  
+✅ A setup script to automate downloads & training  
+
+Just tell me — I’ve got your back 🛡🔥
+---
