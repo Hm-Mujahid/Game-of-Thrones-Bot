@@ -1,0 +1,7 @@
+plotly
+numpy==1.25.3
+numpy tqdm
+gensim>=4.2.0
+pandas
+nltk>=3.6 
+scikit-learn 
